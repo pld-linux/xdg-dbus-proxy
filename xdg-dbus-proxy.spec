@@ -1,13 +1,13 @@
 Summary:	Filtering proxy for D-Bus connections
 Summary(pl.UTF-8):	Proxy filtrujące dla połączeń D-Bus
 Name:		xdg-dbus-proxy
-Version:	0.1.3
+Version:	0.1.4
 Release:	1
 License:	LGPL v2+
 Group:		Applications/System
 #Source0Download: https://github.com/flatpak/xdg-dbus-proxy/releases
 Source0:	https://github.com/flatpak/xdg-dbus-proxy/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	871b921785161a82942e3e9534b9a30e
+# Source0-md5:	89d166170e871b3288e8980aee599ae4
 URL:		https://github.com/flatpak/xdg-dbus-proxy/
 BuildRequires:	glib2-devel >= 1:2.40
 BuildRequires:	libxslt-progs
