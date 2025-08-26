@@ -14,7 +14,7 @@ BuildRequires:	libxslt-progs
 BuildRequires:	meson >= 0.49.0
 BuildRequires:	ninja >= 1.5
 BuildRequires:	pkgconfig
-BuildRequires:	rpmbuild(macros) >= 1.736
+BuildRequires:	rpmbuild(macros) >= 2.042
 Requires:	glib2 >= 1:2.40
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
